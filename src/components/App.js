@@ -9,6 +9,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
+	<h2>Test</h2>
         {this.props.children}
         <h1>Prosto Text</h1>
       </div>
